@@ -1,0 +1,30 @@
+   28  git config user.name "Lorenzo Socci"
+   29  git config user.email "socci.lorenzo@itismeucci.com"
+   30  git commit -am "inserito nome"
+   31  git add .
+   32  git commit -m "Inserito nome"
+   33  git log
+   34  git add .
+   35  git status
+   36  ls
+   37  code .
+   38  git add .
+   39  git status
+   40  git commit -m "Inserito nome"
+   41  git branch BugFix
+   42  git checkout BugFix 
+   43  git branch
+   44  git checkout master
+   45  git checkout BugFix
+   46  git branch
+   47  git commit -am "Errore risolto in stampa"
+   48  git log
+   49  git checkout master
+   50  git log
+   51  git checkout BugFix
+   52  git checkout master
+   53  git merge BugFix
+   54  git log
+   55  git branch -d BugFix 
+   56  git branch
+   57  history 30 > comandi.txt
